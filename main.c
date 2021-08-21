@@ -12,11 +12,11 @@
 // Bibliotecas
 #include <stdio.h>
 
-
+//funcion para el retardo
 void mili(){
-    int segun=2*1e8;
+    int segun=2*1e8;//define la cantidad de segundos que tarda en hacer el siguiente proceso
     int z;
-    for(z=0;z<segun;z++);
+    for(z=0;z<segun;z++);//contador hasta llegar a la cantidad de segundos
 }
 
 int main () {
